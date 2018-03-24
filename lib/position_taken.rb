@@ -4,8 +4,10 @@ board = ["X", " ", "   ", " ", " ", " ", " ", " ", " "]
 
 def position_taken?(board, index)
   val = board[index].strip
-  if val != ""
-    return true
+  if val == ""
+    false
+  else
+    true
   end
 end
 

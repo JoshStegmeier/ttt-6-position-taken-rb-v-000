@@ -3,4 +3,5 @@
 def position_taken?(board, index)
   val = board[index]
   if val != "   " || val != "  " || val != ""
+  end
 end

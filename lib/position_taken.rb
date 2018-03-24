@@ -3,8 +3,7 @@
 board = ["X", " ", "   ", " ", " ", " ", " ", " ", " "]
 
 def position_taken?(board, index)
-  val = board[index].strip
-  if val == "" || val == nil
+  if board[index].strip == "" || board[index] == nil
     false
   else
     true

@@ -9,4 +9,4 @@ def position_taken?(board, index)
   end
 end
 
-position_taken?(board, 0)
+puts board[0].strip

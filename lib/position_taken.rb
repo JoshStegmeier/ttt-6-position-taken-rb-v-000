@@ -10,3 +10,4 @@ def position_taken?(board, index)
 end
 
 puts board[0].strip
+puts "hello"

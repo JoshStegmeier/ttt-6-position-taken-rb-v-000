@@ -10,6 +10,3 @@ def position_taken?(board, index)
     true
   end
 end
-
-puts board[0].strip
-puts "hello"
